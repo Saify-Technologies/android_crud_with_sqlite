@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is item for  recycle for student record which contain three text with each ids as textViewName ,textViewAge , textViewRollNo giving equal weight to each text with orientation horizontal-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+android:gravity="center_vertical"
+    android:padding="10dp"
+
+    >
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:text="Name"
+        android:padding="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:text="Age"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewRollNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="#000000"
+
+        android:gravity="center_vertical"
+        android:text="RollNo"
+        android:padding="10dp"
+        />
+
+
+
+
+
+</LinearLayout>
